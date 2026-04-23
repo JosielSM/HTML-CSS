@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinamica</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Esta é uma imagem dinâmica</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/imgP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/imgM.png" type="image/png">
+        <img src="img/imgG.png" alt="imagem flexivel">
+        
+    </picture>
+<br>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/joP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/joM.png" type="image/png">
+        <img src="img/joG.png" alt="imagem josiel">
+    </picture>
+
+    <h1>Reproduir audio</h1>
+    <p>vamos reproduzir um audio</audio></p>
+    <audio src="midia/audio-meme.mp3" controls>musica meme</audio>
+
+    <audio controls> 
+        <source src="midia/audio-meme.mp3" type="audio/mpeg">
+        <source src="midia/audio-meme.ogg" type="audio/ogg">
+        <source src="midia/audio-meme.wav" type="audio/wav">
+        Seu navegador não suporta o elemento de áudio.
+
+    </audio>
+    
+</body>
+</html>
