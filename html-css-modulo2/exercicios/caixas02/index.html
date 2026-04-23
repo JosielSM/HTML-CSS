@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        header{
+            background-color: #dfdbdb;
+            padding: 10px;
+            text-align: center;
+        }
+        nav > ul{
+            padding: 10px;
+             background-color: #f0f0f0;
+             box-shadow:2px 2px 2px rgba(0, 0, 0, 0.384);
+             border-radius: 0px 0px 6px 6px;
+             margin-top: 10px ;
+             width: 400px;
+             margin: 10px auto;
+
+        }
+        nav > ul > li{
+            list-style-type: none;
+            padding: 0;
+             background-color: #f0f0f0;
+             display: inline-block;
+             margin-top: 10px;
+        }
+         nav > ul > li:hover{
+             box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+         }
+        nav > ul > li > a{
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+          
+        }
+        nav > ul > li > a:hover{
+            text-decoration: underline ;
+            text-decoration:  bold;
+           
+
+        }
+        
+
+        main{
+            padding: 20px;
+        }
+
+        section{
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+        }
+
+        article{
+            
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        article > h2{
+            background-color: rgb(241, 239, 237);
+            border-radius: 10px;
+            width: 100px;
+        }
+       section > article:hover{
+            background-color: #f8f6f6;
+        }
+
+        footer{
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+        
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Seção 1</h2>
+            <article>
+                <h2>Artigo 1</h2>
+                <p>Este é o conteúdo do primeiro artigo.</p>
+            </article>
+            <article>
+                <h2>Artigo 2</h2>
+                <p>Este é o conteúdo do segundo artigo.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Seção 2</h2>
+            <article>
+                <h2>Artigo 3</h2>
+                <p>Este é o conteúdo do terceiro artigo.</p>
+            </article>
+            <article>
+                <h2>Artigo 4</h2>
+                <p>Este é o conteúdo do quarto artigo.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
